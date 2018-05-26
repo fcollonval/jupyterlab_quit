@@ -7,7 +7,7 @@ Warning: It does not use the option `NotebookApp.shutdown_button` introduce
 for the classical notebook as JupyterLab separates more the frontend and the backend.
 See https://github.com/jupyterlab/jupyterlab/issues/2790 .
 
-[!quit](demo_quit.gif)
+![quit](demo_quit.gif)
 
 ## Prerequisites
 
