@@ -2,6 +2,10 @@
 
 A `Quit` entry in File menu.
 
+This extension is based on https://github.com/jupyter/notebook/pull/3004 .
+Warning: It does not use the option `NotebookApp.shutdown_button` introduce 
+for the classical notebook as JupyterLab separates more the frontend and the backend.
+See https://github.com/jupyterlab/jupyterlab/issues/2790 .
 
 ## Prerequisites
 
