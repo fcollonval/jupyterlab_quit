@@ -16,7 +16,7 @@ See https://github.com/jupyterlab/jupyterlab/issues/2790 .
 ## Installation
 
 ```bash
-jupyter labextension install jupyterlab_shutdown
+jupyter labextension install @fcollonval/jupyterlab_shutdown
 ```
 
 ## Development

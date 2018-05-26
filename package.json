@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab_shutdown",
+  "name": "@fcollonval/jupyterlab_shutdown",
   "version": "1.0.0",
   "description": "A `Quit` entry in File menu.",
   "keywords": [
