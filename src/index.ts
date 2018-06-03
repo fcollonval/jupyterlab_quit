@@ -1,3 +1,5 @@
+import { Widget } from "@phosphor/widgets";
+
 import {
   JupyterLab, JupyterLabPlugin
 } from '@jupyterlab/application';
@@ -69,6 +71,14 @@ function activateMenuExtension(app: JupyterLab, palette: ICommandPalette, menu: 
             .then((result) => {
               if (result.ok) {
                 // Close this window if the shutdown request has been successful
+                let body = document.createElement("div");
+                body.innerHTML = `<p>You have shut down Jupyter. You can now close this tab.</p>
+                  <p>To use Jupyter again, you will need to relaunch it.</p>`;
+                showDialog({
+                  title: "Server stopped",
+                  body: new Widget({node: body}),
+                  buttons: []
+                });
                 window.close();
               } else {
                 throw new ServerConnection.ResponseError(result);
