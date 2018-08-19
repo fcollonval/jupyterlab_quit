@@ -50,7 +50,7 @@ function makeServerRequest(url: string, method: string, requestBody: object) : P
  */
 function activateMenuExtension(app: JupyterLab, palette: ICommandPalette, menu: IMainMenu): void {
   
-  let fileMenu = menu.fileMenu
+  let fileMenu = menu.fileMenu;
   const category = 'Main Area';
   const { commands } = app;
 

@@ -11,12 +11,12 @@ See https://github.com/jupyterlab/jupyterlab/issues/2790 .
 
 ## Prerequisites
 
-* JupyterLab
+* JupyterLab 0.33
 
 ## Installation
 
 ```bash
-jupyter labextension install @fcollonval/jupyterlab_shutdown
+jupyter labextension install jupyterlab_shutdown
 ```
 
 ## Development
@@ -26,7 +26,7 @@ For a development install (requires npm version 4 or later), do the following in
 ```bash
 npm install
 npm run build
-jupyter labextension link .
+jupyter labextension install .
 ```
 
 To rebuild the package and the JupyterLab app:
