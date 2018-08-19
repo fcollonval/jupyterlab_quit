@@ -3,7 +3,7 @@
 A `Quit` entry in File menu.
 
 This extension is based on https://github.com/jupyter/notebook/pull/3004 .
-Warning: It does not use the option `NotebookApp.shutdown_button` introduce 
+Warning: It does not use the option `NotebookApp.shutdown_button` introduce
 for the classical notebook as JupyterLab separates more the frontend and the backend.
 See https://github.com/jupyterlab/jupyterlab/issues/2790 .
 
@@ -11,7 +11,7 @@ See https://github.com/jupyterlab/jupyterlab/issues/2790 .
 
 ## Prerequisites
 
-* JupyterLab 0.33
+- JupyterLab 0.34
 
 ## Installation
 
@@ -35,4 +35,3 @@ To rebuild the package and the JupyterLab app:
 npm run build
 jupyter lab build
 ```
-
