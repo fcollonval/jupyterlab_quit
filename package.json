@@ -27,6 +27,7 @@
     "build": "tsc",
     "clean": "rimraf lib",
     "watch": "tsc -w",
+    "precommit": "pretty-quick --staged",
     "prepare": "npm run clean && npm run build"
   },
   "dependencies": {
@@ -38,6 +39,9 @@
     "@phosphor/widgets": "^1.5.0"
   },
   "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "1.14.2",
+    "pretty-quick": "^1.6.0",
     "rimraf": "^2.6.1",
     "typescript": "~2.9.2"
   },
