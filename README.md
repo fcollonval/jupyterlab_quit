@@ -1,5 +1,7 @@
 # jupyterlab_shutdown
 
+> This extension is decrepated as it was introduced in JupyterLab >=0.34.6
+
 A `Quit` entry in File menu.
 
 This extension is based on https://github.com/jupyter/notebook/pull/3004 .
