@@ -1,11 +1,12 @@
 {
   "name": "@fcollonval/jupyterlab_shutdown",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A `Quit` entry in File menu.",
   "keywords": [
     "jupyter",
     "jupyterlab",
-    "jupyterlab-extension"
+    "jupyterlab-extension",
+    "deprecated"
   ],
   "homepage": "https://github.com/fcollonval/jupyterlab_quit",
   "bugs": {
